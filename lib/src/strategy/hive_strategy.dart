@@ -14,7 +14,6 @@ class HiveStrategy extends DbStrategy {
   @override
   String get dbName => _dbName;
 
-  @override
   Future<void> deleteAllData(String tableName) {
     throw UnimplementedError();
   }
